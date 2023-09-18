@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div className="Box">
         <h3 className="heading">Lazy Loading Website</h3>
         <div className="Container">
           {Images.map((image) => {
